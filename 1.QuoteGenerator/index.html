@@ -7,14 +7,31 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div class="quote" id="quote">
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="text">"The only limit to our realization of tomorrow is our doubts of today."</span>
+
+        </div>
+        <div class="quote-author">
+            <span id="author">Franklin D. Roosevelt</span>
+        </div>
+        <!-- Buttons -->
+        <div class="buttons">
+            <button id="new-quote" class="btn" onclick="newQuotes()">New Quote</button>
+            <button id="new-quote-on" class="btn" onclick="getQuote()">New Quote Online</button>
+
+            <button id="tweet-quote" class="btn"><i class="fab fa-twitter"></i> </button>
+    </div>
+
 
 
 
     
 
-     <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
